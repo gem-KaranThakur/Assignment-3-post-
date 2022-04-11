@@ -5,7 +5,7 @@ import org.json.JSONObject;
 import org.testng.Assert;
 
 import static io.restassured.RestAssured.given;
-public class Assignment2put {
+public class assignmentget {
     public static void main(String[] args) {
         //
         RestAssured.baseURI="https://gorest.co.in";
