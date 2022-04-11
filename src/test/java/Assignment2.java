@@ -7,12 +7,12 @@ import org.testng.Assert;
 import static io.restassured.RestAssured.given;
 public class Assignment2 {
     public static void main(String[] args) {
-
+         //
         RestAssured.baseURI="https://gorest.co.in";
         RestAssured.basePath="/public/v2/users";
         JSONObject obj=new JSONObject();
-        obj.put("name","karan singh Thakur");
-        obj.put("email","karan@12gmail.com");
+        obj.put("name","karan singh Thakur123");
+        obj.put("email","karan11@12gmail.com");
         obj.put("gender","male");
         obj.put("status","active");
         //use the headers after the given methods
